@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'python sum.py 10 20'
+                bat '"C:\\Users\\madha\\AppData\\Local\\Programs\\Python\\Python314\\python.exe" sum.py 10 20'
             }
         }
     }
